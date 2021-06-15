@@ -76,13 +76,14 @@
         margin-bottom: 35px;
     }
     
-    .text1 {
+    .text {
         margin-bottom: 20px;
+        max-width: 650px;
     }
     
     .about__box {
         background-color: #445161;
-        min-width: 430px;
+        width: 430px;
         height: 250px;
     }
     
@@ -174,9 +175,13 @@
         margin-bottom: 30px;
     }
     
+    .reviews__block {
+        display: flex;
+        justify-content: space-around;
+    }
+    
     .reviews__box {
         display: flex;
-        justify-content: space-between;
         margin: 25px 0;
     }
     
@@ -185,6 +190,8 @@
         background-color: #ebebeb;
         padding: 10px 15px;
         position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .reviews__text {
