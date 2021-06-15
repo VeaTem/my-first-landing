@@ -42,6 +42,7 @@
     .product__title {
         font-size: 60px;
         margin-bottom: 50px;
+        line-height: 50px
     }
     
     .product__items {
