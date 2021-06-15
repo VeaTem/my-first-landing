@@ -82,7 +82,7 @@
     
     .about__box {
         background-color: #445161;
-        width: 430px;
+        min-width: 430px;
         height: 250px;
     }
     
@@ -138,6 +138,10 @@
         font-size: 30px;
         line-height: 36px;
         margin-bottom: 35px;
+    }
+    
+    .screen__title {
+        margin-bottom: 15px;
     }
     
     .screen__box {
